@@ -5,10 +5,9 @@
             #module load fre/{{ FRE_VERSION }}
 
             # custom user fre-cli
-            module load conda
+            #module load conda
             #conda activate user-fre-cli
-            conda activate fre-cli
-            which fre
+            #which fre
 
             module load gcp/2.3
             module list
